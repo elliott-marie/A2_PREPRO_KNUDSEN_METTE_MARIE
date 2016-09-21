@@ -23,3 +23,7 @@ body {
   background-image: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.75), transparent);
   color: white;
 }
+
+.statues {
+  border: 2px solid #ffad33;
+}
