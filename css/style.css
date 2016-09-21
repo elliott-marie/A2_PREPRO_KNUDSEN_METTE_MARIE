@@ -12,8 +12,16 @@
   transition: color .4s;
 }
 
-ul li {
-  color: #ffad33;
+body {
+  color: black;
+  background-image: url(../img/fond4.jpg);
+}
+
+.bar {
+  border: 0;
+  height: 2px;
+  background-image: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.75), transparent);
+  color: white;
 }
 
 .statues {
