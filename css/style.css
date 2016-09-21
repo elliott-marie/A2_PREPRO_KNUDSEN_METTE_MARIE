@@ -19,3 +19,11 @@ ul li {
 .statues {
   border: 2px solid #ffad33;
 }
+
+footer {
+  width: 100%;
+  background-color: #ffad33;
+  height: 50px;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+}
