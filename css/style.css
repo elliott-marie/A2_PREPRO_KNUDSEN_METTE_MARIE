@@ -24,10 +24,6 @@ body {
   color: white;
 }
 
-.statues {
-  border: 2px solid #ffad33;
-}
-
 .thumbnail {
-  border: 1px solid #ffad33;
+  border: 1px solid black;
 }
