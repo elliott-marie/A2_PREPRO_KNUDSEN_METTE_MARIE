@@ -4,7 +4,14 @@
 #login button {
   color: blue;
 }
-.test{
-	color: orange;
-	font-size: 3em;
+
+#rating {
+  color: #aaa;
+  text-decoration: none;
+  font-size: 3em;
+  transition: color .4s;
+}
+
+ul li {
+  color: #ffad33;
 }
