@@ -41,7 +41,7 @@ ul {
   margin-right: 0px;
 }
 .note strong {
-  color: #088A08;
+  color: #0174DF;
   display: block;
   font-size: 45px;
   line-height: 1em;
@@ -59,6 +59,7 @@ ul {
 }
 
 .rating {
+  margin-top: 50px;
   direction: rtl;
 }
 
@@ -73,7 +74,7 @@ ul {
 .rating a:focus,
 .rating a:hover ~ a,
 .rating a:focus ~ a {
-  color: green;
+  color: #0174DF;
   cursor: pointer;
 }
 
@@ -86,9 +87,14 @@ ul {
 
 h1 {
   text-align: center;
+  color: #0174DF;
 }
 
 .liste {
   text-align: center;
   margin-top: 70px;
+}
+
+.btn {
+  margin-top: 20px;
 }
