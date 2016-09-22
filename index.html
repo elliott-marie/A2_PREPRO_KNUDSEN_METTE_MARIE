@@ -6,6 +6,17 @@
 <script rel="stylesheet" type="text/javascript" src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
 <script rel="stylesheet" type="text/javascript" src="bootstrap-3.3.7-dist/js/npm.js"></script>
 <script type="text/javascript" src="function.fn.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>
+	$(document).ready(function() {
+		$('.js-scrollTo').on('click', function() { // Au clic sur un élément
+			var page = $(this).attr('href'); // Page cible
+			var speed = 750; // Durée de l'animation (en ms)
+			$('html, body').animate( { scrollTop: $(page).offset().top }, speed ); // Go
+			return false;
+		});
+	});
+</script>
 <link rel="stylesheet" type="text/css" href="css/style.css">
 <head>
 	<title>Classement des 10 meilleurs anime</title>
@@ -20,16 +31,16 @@
 	        <li class="dropdown">
 	          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Notre liste<span class="caret"></span></a>
 	          <ul class="dropdown-menu">
-	            <li><a href="#">Attaque des Titans</a></li>
-	            <li><a href="#">Berserk</a></li>
-	            <li><a href="#">Death note</a></li>
-	            <li><a href="#">Erased</a></li>
-	            <li><a href="#">Hajime no Ippo</a></li>
-	            <li><a href="#">Hero Academia</a></li>
-	            <li><a href="#">Magi : Sinbad no Bouken</a></li>
-	            <li><a href="#">Nanatsu no Taizai</a></li>
-	            <li><a href="#">One Punch Man</a></li>
-	            <li><a href="#">Terra Formars</a></li>
+	            <li><a class="js-scrollTo" href="#page-1">Attaque des Titans</a></li>
+	            <li><a class="js-scrollTo" href="#page-2">Berserk</a></li>
+	            <li><a class="js-scrollTo" href="#page-3">Death note</a></li>
+	            <li><a class="js-scrollTo" href="#page-4">Erased</a></li>
+	            <li><a class="js-scrollTo" href="#page-5">Hajime no Ippo</a></li>
+	            <li><a class="js-scrollTo" href="#page-6">Hero Academia</a></li>
+	            <li><a class="js-scrollTo" href="#page-7">Magi : Sinbad no Bouken</a></li>
+	            <li><a class="js-scrollTo" href="#page-8">Nanatsu no Taizai</a></li>
+	            <li><a class="js-scrollTo" href="#page-9">One Punch Man</a></li>
+	            <li><a class="js-scrollTo" href="#page-0">Terra Formars</a></li>
 	          </ul>
 	        </li>
 	      </ul>
@@ -61,6 +72,7 @@
 </div>
 
 <div class="container-fluid">
+<div id="page-1">
 	<div class="col-lg-4 col-md-6 col-sm-6"><img src="img/attack-on-titan.jpg" class="img-responsive"></div>
 		<div class="col-lg-6 col-md-4 col-sm-6">
 				<ul class="liste">
@@ -90,6 +102,7 @@
 </div>
 				</ul>
 		</div>
+		</div>
 <div class="col-lg-2 col-md-2 col-sm-12">
 <div class="rating">
 <p class="avis">Donnez nous votre avis</p>
@@ -109,6 +122,7 @@
 </div>
 <hr class="bar">
 <div class="container-fluid">
+<div id="page-2">
 	<div class="col-lg-4 col-md-6 col-sm-6"><img src="img/berserk.jpg" class="img-responsive"></div>
 		<div class="col-lg-6 col-md-4 col-sm-6">
 				<ul class="liste">
@@ -137,6 +151,7 @@
   </div>
 </div>
 				</ul>
+			</div>
 		</div>
 <div class="col-lg-2 col-md-2 col-sm-12">
 <div class="rating">
@@ -155,6 +170,7 @@
 </div>
 <hr class="bar">
 <div class="container-fluid">
+<div id="page-3">
 	<div class="col-lg-4 col-md-6 col-sm-6"><img src="img/deathnote.jpg" class="img-responsive"></div>
 		<div class="col-lg-6 col-md-4 col-sm-6">
 				<ul class="liste">
@@ -185,6 +201,7 @@
   </div>
 </div>
 				</ul>
+			</div>
 		</div>
 <div class="col-lg-2 col-md-2 col-sm-12">
 <div class="rating">
@@ -203,6 +220,7 @@
 </div>
 <hr class="bar">
 <div class="container-fluid">
+<div id="page-4">
 	<div class="col-lg-4 col-md-6 col-sm-6"><img src="img/erased.jpg" class="img-responsive"></div>
 		<div class="col-lg-6 col-md-4 col-sm-6">
 				<ul class="liste">
@@ -233,6 +251,7 @@
   </div>
 </div>
 				</ul>
+			</div>
 		</div>
 <div class="col-lg-2 col-md-2 col-sm-12">
 <div class="rating">
@@ -251,6 +270,7 @@
 </div>
 <hr class="bar">
 <div class="container-fluid">
+<div id="page-5">
 	<div class="col-lg-4 col-md-6 col-sm-6"><img src="img/ippo.jpg" class="img-responsive"></div>
 		<div class="col-lg-6 col-md-4 col-sm-6">
 				<ul class="liste">
@@ -281,6 +301,7 @@
   </div>
 </div>
 				</ul>
+			</div>
 		</div>
 <div class="col-lg-2 col-md-2 col-sm-12">
 <div class="rating">
@@ -299,6 +320,7 @@
 </div>
 <hr class="bar">
 <div class="container-fluid">
+<div id="page-6">
 	<div class="col-lg-4 col-md-6 col-sm-6"><img src="img/boku.jpg" class="img-responsive"></div>
 		<div class="col-lg-6 col-md-4 col-sm-6">
 				<ul class="liste">
@@ -329,6 +351,7 @@
   </div>
 </div>
 				</ul>
+			</div>
 		</div>
 <div class="col-lg-2 col-md-2 col-sm-12">
 <div class="rating">
@@ -347,6 +370,7 @@
 </div>
 <hr class="bar">
 <div class="container-fluid">
+<div id="page-7">
 	<div class="col-lg-4 col-md-6 col-sm-6"><img src="img/sinbadmagi.jpg" class="img-responsive"></div>
 		<div class="col-lg-6 col-md-4 col-sm-6">
 				<ul class="liste">
@@ -377,6 +401,7 @@
   </div>
 </div>
 				</ul>
+			</div>
 		</div>
 <div class="col-lg-2 col-md-2 col-sm-12">
 <div class="rating">
@@ -395,6 +420,7 @@
 </div>
 <hr class="bar">
 <div class="container-fluid">
+<div id="page-8">
 	<div class="col-lg-4 col-md-6 col-sm-6"><img src="img/seven.jpg" class="img-responsive"></div>
 		<div class="col-lg-6 col-md-4 col-sm-6">
 				<ul class="liste">
@@ -425,6 +451,7 @@
   </div>
 </div>
 				</ul>
+			</div>
 		</div>
 <div class="col-lg-2 col-md-2 col-sm-12">
 <div class="rating">
@@ -443,6 +470,7 @@
 </div>
 <hr class="bar">
 <div class="container-fluid">
+<div id="page-9">
 	<div class="col-lg-4 col-md-6 col-sm-6"><img src="img/opm.jpg" class="img-responsive"></div>
 		<div class="col-lg-6 col-md-4 col-sm-6">
 				<ul class="liste">
@@ -473,6 +501,7 @@
   </div>
 </div>
 				</ul>
+				</div>
 		</div>
 <div class="col-lg-2 col-md-2 col-sm-12">
 <div class="rating">
@@ -491,6 +520,7 @@
 </div>
 <hr class="bar">
 <div class="container-fluid">
+<div id="page-0">
 	<div class="col-lg-4 col-md-6 col-sm-6"><img src="img/terraformars.jpg" class="img-responsive"></div>
 		<div class="col-lg-6 col-md-4 col-sm-6">
 				<ul class="liste">
@@ -521,6 +551,7 @@
   </div>
 </div>
 				</ul>
+			</div>
 		</div>
 <div class="col-lg-2 col-md-2 col-sm-12">
 <div class="rating">
