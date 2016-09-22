@@ -29,7 +29,9 @@ background-image:url(../img/fond4.jpg);
 }
 
 
-
+ul{
+	list-style:none;
+}
 
 .thumbnail {
     border:1px solid black;
@@ -79,4 +81,11 @@ margin-top: -20px;
  font-family: arial;
  font-size: 20px;
  padding-left: 55px;	
+}
+h1{
+	text-align: center;
+}
+.liste{
+	text-align: center;
+	margin-top: 70px;
 }

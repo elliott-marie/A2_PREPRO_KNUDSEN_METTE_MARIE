@@ -25,6 +25,10 @@ body {
   color: white;
 }
 
+ul {
+  list-style: none;
+}
+
 .thumbnail {
   border: 1px solid black;
 }
@@ -78,4 +82,13 @@ body {
   font-family: arial;
   font-size: 20px;
   padding-left: 55px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.liste {
+  text-align: center;
+  margin-top: 70px;
 }
