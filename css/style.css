@@ -98,3 +98,10 @@ h1 {
 .btn {
   margin-top: 20px;
 }
+
+#myModal1 .modal-content {
+  background-color: #ffad33;
+}
+#myModal1 .modal-body {
+  background-color: whitesmoke;
+}
