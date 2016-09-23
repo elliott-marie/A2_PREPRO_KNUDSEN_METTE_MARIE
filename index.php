@@ -1,4 +1,8 @@
 <?php
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> bdfefce62a85eebb18e903a8cfe40720ce36d59a
 ?>
 <!DOCTYPE html>
 <html>
@@ -46,6 +50,7 @@
 	          </ul>
 	        </li>
 	      </ul>
+<<<<<<< HEAD
       <ul class="nav navbar-nav navbar-right">
         <li><a href="derive.html" style="color: #FFFFFF">Produits Dérivés</a></li>
         <li><a href="form.php" style="color: #FFFFFF">Nous contacter</a></li>
@@ -55,6 +60,15 @@
 </nav>
 
 
+=======
+
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="derive.html" style="color: #FFFFFF">Produits Dérivés</a></li>
+   </ul>
+ </div>
+</nav>
+
+>>>>>>> bdfefce62a85eebb18e903a8cfe40720ce36d59a
 <img src="img/baniere.jpg" class="img-responsive" id="baniere">
 
 
@@ -108,7 +122,11 @@
 </div>
 </div>
 </div>
+<<<<<<< HEAD
 
+=======
+</div>
+>>>>>>> bdfefce62a85eebb18e903a8cfe40720ce36d59a
 <hr class="bar">
 <div class="container-fluid">
 <div id="page-2">
@@ -352,7 +370,11 @@
 		</div>
 <div class="col-lg-2 col-md-2 col-sm-12">
 <div class="rating">
+<<<<<<< HEAD
 <div class="etoile">
+=======
+<<div class="etoile">
+>>>>>>> bdfefce62a85eebb18e903a8cfe40720ce36d59a
 	<a href="#5" title="Donner 5 étoiles">☆</a>
    <a href="#4" title="Donner 4 étoiles">☆</a>
    <a href="#3" title="Donner 3 étoiles">☆</a>
@@ -566,7 +588,10 @@
    <a href="#3" title="Donner 3 étoiles">☆</a>
    <a href="#2" title="Donner 2 étoiles">☆</a>
    <a href="#1" title="Donner 1 étoile">☆</a>
+<<<<<<< HEAD
    </div>
+=======
+>>>>>>> bdfefce62a85eebb18e903a8cfe40720ce36d59a
    <div class="etoile">
 	<div class="note">
 	<strong class="value">17</strong>
@@ -576,14 +601,29 @@
 </div>
 </div>
 </div>
+<<<<<<< HEAD
 
+=======
+<hr class="bar">
+>>>>>>> bdfefce62a85eebb18e903a8cfe40720ce36d59a
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <link rel="stylesheet" type="text/css" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
 <script rel="stylesheet" type="text/css" href="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
 <script rel="stylesheet" type="text/css" href="bootstrap-3.3.7-dist/js/npm.js"></script>
+<<<<<<< HEAD
     </div>
 </body>
 <?php include ('footer.php'); ?>
 
 </html>
+=======
+
+</body>
+<?php include('footer.php'); ?>
+</html>
+=======
+session_start();
+include("index.html");
+>>>>>>> a5c024a82a3985af9550fb8ed7aee241c6781b60
+>>>>>>> bdfefce62a85eebb18e903a8cfe40720ce36d59a

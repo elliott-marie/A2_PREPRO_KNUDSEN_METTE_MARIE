@@ -15,7 +15,7 @@
 <footer>
 <span class="copyright">Top Anime &copy; 2016</span>
 	<div class="socialbtns" style="    margin-left: 44%;
-    margin-top: -18px;">
+    margin-top: -44px;">
     <ul>
         <li><a href="#" class="fa fa-lg fa-facebook"></a></li>
         <li><a href="#" class="fa fa-lg fa-twitter"></a></li>
