@@ -94,7 +94,9 @@ background-size: contain;
 }
 h1{
 	text-align: center;
-   color: $couleurnote;
+   .deriv{
+   	color: black;
+   }
     
 }
 .liste{
@@ -114,4 +116,17 @@ h1{
         background-color: whitesmoke;     
     }
 }
-
+.etoile{
+	display: inline-flex;
+}
+a{
+color: #FFFFFF;
+}
+.navbar .navbar-nav{
+	display: inline-block;
+	float: none;
+	vertical-align: top;
+}
+.navbar .navbar-collapse{
+	text-align: center;
+}
