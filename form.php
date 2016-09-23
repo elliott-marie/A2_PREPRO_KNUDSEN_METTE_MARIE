@@ -21,7 +21,7 @@
   <form id="contact" name="contact" accept-charset="utf-8">
 
 
-
+<div></div>
     <label><span>Name</span><input name="name" type="text" placeholder="Name"/></label>
     <label><span>Email</span><input name="email" type="email" placeholder="Email"/></label>
     <label><span>Message</span><textarea name="message" placeholder="Message"></textarea></label>
