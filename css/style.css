@@ -16,6 +16,7 @@
 body {
   color: black;
   background-image: url(../img/fond4.jpg);
+  margin: 0px;
 }
 
 .bar {
@@ -219,5 +220,73 @@ input[type="submit"]:hover, button:hover {
 
   #contact-form aside {
     width: 30.9353%;
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  .thumbnail {
+    border: 1px solid black;
+  }
+
+  .baniere {
+    margin-top: -20px;
+  }
+
+  .note {
+    margin-right: 0px;
+  }
+  .note strong {
+    color: #088A08;
+    display: block;
+    font-size: 45px;
+    line-height: 1em;
+    width: 100%;
+  }
+  .note span {
+    border-top: 1px solid #DDD;
+    color: #FFFFFF;
+    display: inline-block;
+    font-size: 25px;
+    line-height: 1em;
+    padding: 0 12px;
+    padding-top: 2px;
+    margin-top: 2px;
+  }
+
+  .rating {
+    direction: rtl;
+  }
+
+  .rating a {
+    color: #aaa;
+    text-decoration: none;
+    font-size: 3em;
+    transition: color .4s;
+  }
+
+  .rating a:hover,
+  .rating a:focus,
+  .rating a:hover ~ a,
+  .rating a:focus ~ a {
+    color: green;
+    cursor: pointer;
+  }
+
+  .avis {
+    color: #FFFFFF;
+    font-family: arial;
+    font-size: 20px;
+    padding-left: 55px;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  .liste {
+    text-align: center;
+    margin-top: 70px;
   }
 }
