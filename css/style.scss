@@ -19,7 +19,8 @@ $couleurnote: #0174DF;
 body {
 color:black;
 background-image:url(../img/fond4.jpg);
- margin:0px;
+margin:0px;
+padding-top: 70px;
 }
 
 .bar{
@@ -87,6 +88,7 @@ margin-top: -20px;
 h1{
 	text-align: center;
    color: $couleurnote;
+    
 }
 .liste{
 	text-align: center;
@@ -95,3 +97,15 @@ h1{
 .btn{
 	margin-top: 20px;
 }
+
+#myModal1 {
+    .modal-content{
+        background-color: $couleurmanga;
+       
+    }
+    .modal-body{
+        background-color: whitesmoke;
+        
+    }
+}
+
