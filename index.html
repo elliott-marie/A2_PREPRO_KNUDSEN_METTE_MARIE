@@ -2,10 +2,11 @@
 <html>
 <meta charset="utf-8">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript" src="function.fn.js"></script>
+<link rel="stylesheet" type="text/css" href="css/style.css">
 <link rel="stylesheet" type="text/css" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
 <script rel="stylesheet" type="text/javascript" src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
 <script rel="stylesheet" type="text/javascript" src="bootstrap-3.3.7-dist/js/npm.js"></script>
-<script type="text/javascript" src="function.fn.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script>
 	$(document).ready(function() {
@@ -17,13 +18,12 @@
 		});
 	});
 </script>
-<link rel="stylesheet" type="text/css" href="css/style.css">
 <head>
 	<title>Classement des 10 meilleurs anime</title>
 </head>
 <body>
 
-<nav class="navbar navbar-default">
+<nav class="navbar navbar-default navbar-fixed-top">
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -44,12 +44,6 @@
 	          </ul>
 	        </li>
 	      </ul>
-      <form class="navbar-form navbar-left">
-        <div class="form-group">
-          <input type="text" class="form-control" placeholder="Search">
-        </div>
-        <button type="submit" class="btn btn-default">Submit</button>
-      </form>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="derive.html">Produits Dérivés</a></li>
         <li class="dropdown">
@@ -67,9 +61,8 @@
   </div><!-- /.container-fluid -->
 </nav>
 
-<div class="container-fluid">
-<div class="baniere col-lg-12 col-md-12 col-sm12"><img src="img/baniere.jpg" class="img-responsive" id="baniere"></div>
-</div>
+<img src="img/baniere.jpg" class="img-responsive" id="baniere">
+
 
 <div class="container-fluid">
 <div id="page-1">
@@ -77,12 +70,12 @@
 		<div class="col-lg-6 col-md-4 col-sm-6">
 				<ul class="liste">
 					<li><h1>Attaque des Titans</h1></li>
-			<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+			<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal1">
 					<li>Date de sortie : 2013</li>
 					<li>En cours de production</li>
 					<li>Saison : 1</li>
 </button>
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -112,7 +105,7 @@
    <a href="#2" title="Donner 2 étoiles">☆</a>
    <a href="#1" title="Donner 1 étoile">☆</a>
 	<div class="note">
-	<strong class="value">16</strong>
+	<strong class="value">19</strong>
 	<span data-jvcode="HTMLBLOCK" itemprop="best">
 20</span>
 	</div>
@@ -127,12 +120,12 @@
 		<div class="col-lg-6 col-md-4 col-sm-6">
 				<ul class="liste">
 					<li><h1>Berserk</h1></li>
-			<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+			<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal2">
 					<li>Date de sortie : 1997</li>
 					<li>En cours de production</li>
 					<li>Saisons : 2</li>
 			</button>
-		<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -142,7 +135,7 @@
         <h4 class="modal-title" id="myModalLabel">Synopsis</h4>
       </div>
       <div class="modal-body">
-       <p>: L’histoire nous entraîne dans les tourments de Guts, un puissant guerrier animé d’une rage irrépressible et destructrice ayant survécu au sacrifice humain du God Hand (groupe de puissants Démons que Griffith a rejoint pour s’élever au- dessus des Hommes) qui coûta la vie à ses frères d’armes. </p>
+       <p> L’histoire nous entraîne dans les tourments de Guts, un puissant guerrier animé d’une rage irrépressible et destructrice ayant survécu au sacrifice humain du God Hand (groupe de puissants Démons que Griffith a rejoint pour s’élever au- dessus des Hommes) qui coûta la vie à ses frères d’armes. </p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -161,7 +154,7 @@
    <a href="#2" title="Donner 2 étoiles">☆</a>
    <a href="#1" title="Donner 1 étoile">☆</a>
 	<div class="note">
-	<strong class="value">16</strong>
+	<strong class="value">17</strong>
 	<span data-jvcode="HTMLBLOCK" itemprop="best">
 20</span>
 	</div>
@@ -175,14 +168,14 @@
 		<div class="col-lg-6 col-md-4 col-sm-6">
 				<ul class="liste">
 					<li><h1>Death Note</h1></li>
-		<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+		<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal3">
 					<li>Date de sortie : 2006</li>
 					<li>Terminé</li>
 					<li>Saisons : 1</li>
 </button>
 
 <!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -211,7 +204,7 @@
    <a href="#2" title="Donner 2 étoiles">☆</a>
    <a href="#1" title="Donner 1 étoile">☆</a>
 	<div class="note">
-	<strong class="value">16</strong>
+	<strong class="value">19</strong>
 	<span data-jvcode="HTMLBLOCK" itemprop="best">
 20</span>
 	</div>
@@ -225,14 +218,14 @@
 		<div class="col-lg-6 col-md-4 col-sm-6">
 				<ul class="liste">
 					<li><h1>Erased</h1></li>
-			<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+			<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal4">
 					<li>Date de sortie : 2016</li>
 					<li>Terminé</li>
 					<li>Saisons : 1</li>
 </button>
 
 <!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal fade" id="myModal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -261,7 +254,7 @@
    <a href="#2" title="Donner 2 étoiles">☆</a>
    <a href="#1" title="Donner 1 étoile">☆</a>
 	<div class="note">
-	<strong class="value">16</strong>
+	<strong class="value">17</strong>
 	<span data-jvcode="HTMLBLOCK" itemprop="best">
 20</span>
 	</div>
@@ -275,14 +268,14 @@
 		<div class="col-lg-6 col-md-4 col-sm-6">
 				<ul class="liste">
 					<li><h1>Hajime no Ippo</h1></li>
-		<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+		<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal5">
 					<li>Date de sortie : 2000</li>
 					<li>Terminé</li>
 					<li>Saisons : 3</li>
 </button>
 
 <!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal fade" id="myModal5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -311,7 +304,7 @@
    <a href="#2" title="Donner 2 étoiles">☆</a>
    <a href="#1" title="Donner 1 étoile">☆</a>
 	<div class="note">
-	<strong class="value">16</strong>
+	<strong class="value">18,5</strong>
 	<span data-jvcode="HTMLBLOCK" itemprop="best">
 20</span>
 	</div>
@@ -325,14 +318,14 @@
 		<div class="col-lg-6 col-md-4 col-sm-6">
 				<ul class="liste">
 					<li><h1>Hero Academia</h1></li>
-		<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+		<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal6">
 					<li>Date de sortie : 2016</li>
 					<li>En cours de production</li>
 					<li>Saison : 1</li>
 	</button>
 
 <!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal fade" id="myModal6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -375,14 +368,14 @@
 		<div class="col-lg-6 col-md-4 col-sm-6">
 				<ul class="liste">
 					<li><h1>Magi : Sinbad no bouken</h1></li>
-		<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+		<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal7">
 					<li>Date de sortie : 2016</li>
 					<li>En cours de production</li>
 					<li>Saison : 1</li>
 	</button>
 
 <!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal fade" id="myModal7" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -392,7 +385,7 @@
         <h4 class="modal-title" id="myModalLabel">Synopsis</h4>
       </div>
       <div class="modal-body">
-        <p>: Il s’agit du spin-off du manga, Magi de Shinobu Ohtaka, qui raconte la jeunesse de Sinbad, le Roi de Sindria surnommé le Grand Roi des 7 mers. L’histoire nous entraîne dans les aventures du jeune Sinbad qui remporte son premier Donjon à l’âge de 14 ans. Nous le suivons dans son ascension qui le fera devenir le Grand Roi des 7 mers.</p>
+        <p>Il s’agit du spin-off du manga, Magi de Shinobu Ohtaka, qui raconte la jeunesse de Sinbad, le Roi de Sindria surnommé le Grand Roi des 7 mers. L’histoire nous entraîne dans les aventures du jeune Sinbad qui remporte son premier Donjon à l’âge de 14 ans. Nous le suivons dans son ascension qui le fera devenir le Grand Roi des 7 mers.</p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -411,7 +404,7 @@
    <a href="#2" title="Donner 2 étoiles">☆</a>
    <a href="#1" title="Donner 1 étoile">☆</a>
 	<div class="note">
-	<strong class="value">16</strong>
+	<strong class="value">17</strong>
 	<span data-jvcode="HTMLBLOCK" itemprop="best">
 20</span>
 	</div>
@@ -425,14 +418,14 @@
 		<div class="col-lg-6 col-md-4 col-sm-6">
 				<ul class="liste">
 					<li><h1>Nanatsu no Taizai</h1></li>
-	<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+	<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal8">
 					<li>Date de sortie : 2014</li>
 					<li>En cours de production</li>
 					<li>Saisons : 2</li>
 </button>
 
 <!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal fade" id="myModal8" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -461,7 +454,7 @@
    <a href="#2" title="Donner 2 étoiles">☆</a>
    <a href="#1" title="Donner 1 étoile">☆</a>
 	<div class="note">
-	<strong class="value">16</strong>
+	<strong class="value">17</strong>
 	<span data-jvcode="HTMLBLOCK" itemprop="best">
 20</span>
 	</div>
@@ -475,14 +468,14 @@
 		<div class="col-lg-6 col-md-4 col-sm-6">
 				<ul class="liste">
 					<li><h1>One punch man</h1></li>
-	<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+	<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal9">
 					<li>Date de sortie : 2015</li>
 					<li>En cours de production</li>
 					<li>Saison : 1</li>
 </button>
 
 <!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal fade" id="myModal9" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -511,7 +504,7 @@
    <a href="#2" title="Donner 2 étoiles">☆</a>
    <a href="#1" title="Donner 1 étoile">☆</a>
 	<div class="note">
-	<strong class="value">16</strong>
+	<strong class="value">19</strong>
 	<span data-jvcode="HTMLBLOCK" itemprop="best">
 20</span>
 	</div>
@@ -525,14 +518,14 @@
 		<div class="col-lg-6 col-md-4 col-sm-6">
 				<ul class="liste">
 					<li><h1>Terra Formars</h1></li>
-	<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+	<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal10">
 					<li>Date de sortie : 2014</li>
 					<li>En cours de production</li>
 					<li>Saison : 2</li>
 </button>
 
 <!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal fade" id="myModal10" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -561,7 +554,7 @@
    <a href="#2" title="Donner 2 étoiles">☆</a>
    <a href="#1" title="Donner 1 étoile">☆</a>
 	<div class="note">
-	<strong class="value">16</strong>
+	<strong class="value">17</strong>
 	<span data-jvcode="HTMLBLOCK" itemprop="best">
 20</span>
 	</div>

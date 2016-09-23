@@ -20,7 +20,8 @@ $couleurnote: #0174DF;
 body {
 color:black;
 background-image:url(../img/fond4.jpg);
- margin:0px;
+margin:0px;
+padding-top: 70px;
 }
 
 .bar{
@@ -239,8 +240,15 @@ ul{
 }
 .baniere{
 margin-top: -20px;
-}
+background-size: contain;
+#baniere {
+	width: 100%;
 
+}
+}
+#baniere{
+	margin-top: -20px;
+}
 .note{
 	margin-right: 0px;
     strong{
@@ -287,14 +295,31 @@ margin-top: -20px;
 h1{
 	text-align: center;
    color: $couleurnote;
+    
 }
 .liste{
 	text-align: center;
-	margin-top: 70px;
+	margin-top: 50px;
 }
 
 
 .btn{
+
 margin-top: 20px;
 }
+
+
+	margin-top: 20px;
 }
+
+#myModal1 {
+    .modal-content{
+        background-color: $couleurmanga;
+       
+    }
+    .modal-body{
+        background-color: whitesmoke;     
+    }
+}
+
+
