@@ -1,4 +1,5 @@
 <?php
+<<<<<<< HEAD
 ?>
 <!DOCTYPE html>
 <html>
@@ -583,3 +584,7 @@
 </body>
 <?php include('footer.php'); ?>
 </html>
+=======
+session_start();
+include("index.html");
+>>>>>>> a5c024a82a3985af9550fb8ed7aee241c6781b60
