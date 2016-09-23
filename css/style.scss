@@ -417,3 +417,9 @@ margin-right: 50px;
         background-color: whitesmoke;     
     }
 }
+input[type="submit1"], button{
+    background: whitesmoke;
+}
+input[type="submit1"]:hover, button:hover {
+    background: $couleurnote;
+}

@@ -399,3 +399,11 @@ a {
 #myModal10 .modal-body {
   background-color: whitesmoke;
 }
+
+input[type="submit1"], button {
+  background: whitesmoke;
+}
+
+input[type="submit1"]:hover, button:hover {
+  background: #0174DF;
+}
