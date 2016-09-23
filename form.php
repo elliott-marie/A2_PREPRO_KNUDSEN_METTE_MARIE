@@ -21,7 +21,7 @@
   <form id="contact" name="contact" accept-charset="utf-8">
 
    <p>
-       <label for="ask">qu'el est le sujet de votre demande</label><br />
+       <label for="ask" style="text-align:center;">qu'elle est le sujet de votre demande</label><br />
        <select name="ask" id="ask">
            <option value="ask1">Ajout d'un manga</option>
            <option value="ask2">demande de contact</option>
@@ -34,7 +34,7 @@
     <label><span>Name</span><input name="name" type="text" placeholder="Name"/></label>
     <label><span>Email</span><input name="email" type="email" placeholder="Email"/></label>
     <label><span>Message</span><textarea name="message" placeholder="Message"></textarea></label>
-    <input name="submit" type="submit" value="Send"/>
+    <input name="submit1" type="submit" value="Send"/>
   </form>
   
   </div>

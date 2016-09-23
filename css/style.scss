@@ -44,8 +44,8 @@ footer{
     height: 50px;
 font-family: 'Open Sans', sans-serif;
 color: white;
-position: fixed;
-bottom: 0px;
+    margin-bottom: -7px;
+    padding: 40px;
 }
 
 
@@ -60,8 +60,8 @@ a, a:hover {
 }
 
 .socialbtns{
-	    margin-left: 45%;
-    margin-top: -9px;
+	      margin-left: 44%;
+    margin-top: -42px;
 }
 .socialbtns, .socialbtns ul, .socialbtns li {
     margin: 0;
@@ -175,11 +175,11 @@ input.invalid, textarea.invalid {
 textarea {
   height: 6em;
 }
-input[type="submit"], button {
+input[type="submit1"], button {
   background: #a7cd80;
   color: #333;
 }
-input[type="submit"]:hover, button:hover {
+input[type="submit1"]:hover, button:hover {
   background: #91b36f;
 }
 
