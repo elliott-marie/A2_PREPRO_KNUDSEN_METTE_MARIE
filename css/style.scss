@@ -327,8 +327,10 @@ color: #FFFFFF;
 	display: inline-block;
 	float: none;
 	vertical-align: top;
+.nav navbar-nav navbar-right{
+margin-right: 50px;
 }
-
+}
 #myModal2 {
     .modal-content{
         background-color: $couleurmanga;
