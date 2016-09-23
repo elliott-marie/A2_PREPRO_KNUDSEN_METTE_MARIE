@@ -238,7 +238,7 @@ input[type="submit"]:hover, button:hover {
     margin-right: 0px;
   }
   .note strong {
-    color: #088A08;
+    color: #0174DF;
     display: block;
     font-size: 45px;
     line-height: 1em;
@@ -256,6 +256,7 @@ input[type="submit"]:hover, button:hover {
   }
 
   .rating {
+    margin-top: 50px;
     direction: rtl;
   }
 
@@ -270,7 +271,7 @@ input[type="submit"]:hover, button:hover {
   .rating a:focus,
   .rating a:hover ~ a,
   .rating a:focus ~ a {
-    color: green;
+    color: #0174DF;
     cursor: pointer;
   }
 
@@ -283,10 +284,15 @@ input[type="submit"]:hover, button:hover {
 
   h1 {
     text-align: center;
+    color: #0174DF;
   }
 
   .liste {
     text-align: center;
     margin-top: 70px;
+  }
+
+  .btn {
+    margin-top: 20px;
   }
 }
