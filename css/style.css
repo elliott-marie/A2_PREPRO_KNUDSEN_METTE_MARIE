@@ -36,6 +36,14 @@ ul {
 
 .baniere {
   margin-top: -20px;
+  background-size: contain;
+}
+.baniere #baniere {
+  width: 100%;
+}
+
+#baniere {
+  margin-top: -20px;
 }
 
 .note {
@@ -93,7 +101,7 @@ h1 {
 
 .liste {
   text-align: center;
-  margin-top: 70px;
+  margin-top: 50px;
 }
 
 .btn {
