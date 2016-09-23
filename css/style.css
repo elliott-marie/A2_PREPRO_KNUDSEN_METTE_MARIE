@@ -301,6 +301,11 @@ input[type="submit"]:hover, button:hover {
     margin-top: 50px;
   }
 
+  #ask {
+    margin-left: 26%;
+    width: 74%;
+  }
+
   .btn {
     margin-top: 20px;
   }

@@ -182,7 +182,7 @@ input[type="submit"], button {
 input[type="submit"]:hover, button:hover {
   background: #91b36f;
 }
-@media screen and (min-width: 30em) {
+
   #contact-form h2 {
     margin-left: 26.3736%;
     font-size: 2em;
@@ -206,8 +206,7 @@ input[type="submit"]:hover, button:hover {
   input[type="submit"], button {
     margin-left: 26.3736%;
   }
-}
-@media screen and (min-width: 48em) {
+
   #contact-form {
     text-align: justify;
     line-height: 0;
@@ -241,13 +240,15 @@ ul{
 .baniere{
 margin-top: -20px;
 background-size: contain;
+}
 #baniere {
 	width: 100%;
 
 }
-}
+
 #baniere{
 	margin-top: -20px;
+  
 }
 .note{
 	margin-right: 0px;
@@ -301,7 +302,10 @@ h1{
 	text-align: center;
 	margin-top: 50px;
 }
-
+#ask{
+	margin-left: 26%;
+    width: 74%;
+}
 
 .btn{
 
