@@ -331,6 +331,9 @@ a {
   float: none;
   vertical-align: top;
 }
+.navbar .navbar-nav .nav navbar-nav navbar-right {
+  margin-right: 50px;
+}
 
 #myModal2 .modal-content {
   background-color: #ffad33;
